@@ -4,7 +4,7 @@
 #
 Name     : perl-CPAN-DistnameInfo
 Version  : 0.12
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz
 Summary  : Extract distribution name and version from a distribution filename
@@ -63,7 +63,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.26.1/CPAN/DistnameInfo.pm
+/usr/lib/perl5/vendor_perl/5.28.0/CPAN/DistnameInfo.pm
 
 %files dev
 %defattr(-,root,root,-)
