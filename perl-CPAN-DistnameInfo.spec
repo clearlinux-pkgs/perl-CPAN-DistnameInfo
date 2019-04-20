@@ -4,7 +4,7 @@
 #
 Name     : perl-CPAN-DistnameInfo
 Version  : 0.12
-Release  : 8
+Release  : 9
 URL      : https://cpan.metacpan.org/authors/id/G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz
 Summary  : Extract distribution name and version from a distribution filename
@@ -21,6 +21,7 @@ distribution filename
 Summary: dev components for the perl-CPAN-DistnameInfo package.
 Group: Development
 Provides: perl-CPAN-DistnameInfo-devel = %{version}-%{release}
+Requires: perl-CPAN-DistnameInfo = %{version}-%{release}
 
 %description dev
 dev components for the perl-CPAN-DistnameInfo package.
