@@ -7,7 +7,7 @@
 #
 Name     : perl-CPAN-DistnameInfo
 Version  : 0.12
-Release  : 31
+Release  : 32
 URL      : https://cpan.metacpan.org/authors/id/G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz
 Summary  : Extract distribution name and version from a distribution filename
